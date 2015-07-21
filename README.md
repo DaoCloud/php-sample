@@ -34,7 +34,7 @@ CMD [ "php", "./hello.php" ]
 
 Dockerfile 具体语法请参考：**[Dockerfile](https://docs.docker.com/reference/builder/)**。
 
-有了Dockerfile以后，我们可以运行下面的命令构建 PHP 应用镜像并命名为 `my-php-app`：
+有了 Dockerfile 以后，我们可以运行下面的命令构建 PHP 应用镜像并命名为 `my-php-app`：
 
 `docker build -t my-php-app .`
 
