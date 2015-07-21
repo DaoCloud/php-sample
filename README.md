@@ -14,7 +14,7 @@
 
 首先，选择官方的 `php:5.6-cli` 镜像作为项目的基础镜像。
 
-```
+```Dockerfile
 FROM daocloud.io/php:5.6-cli
 ```
 
@@ -22,7 +22,7 @@ FROM daocloud.io/php:5.6-cli
 
 接着，将代码复制到目标目录。
 
-```
+```Dockerfile
 COPY . /app
 WORKDIR /app
 CMD [ "php", "./hello.php" ]
