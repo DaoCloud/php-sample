@@ -35,7 +35,7 @@ CMD [ "php", "./hello.php" ]
 
 最后，让我们运行这个示例代码。
 
-```
+```nohighlight
 Welcome the world of Docker !
 ```
 
