@@ -40,7 +40,7 @@ Dockerfile 具体语法请参考：**[Dockerfile](https://docs.docker.com/refere
 
 最后，让我们从镜像启动容器：
 
-`docker run -it my-php-app`
+`docker run my-php-app`
 
 ```nohighlight
 Welcome the world of Docker !
